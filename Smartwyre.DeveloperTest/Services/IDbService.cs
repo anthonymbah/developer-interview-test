@@ -2,7 +2,7 @@
 
 namespace Smartwyre.DeveloperTest.Services;
 
-public interface IRebateService
+public interface IDbService
 {
     CalculateRebateResult Calculate(CalculateRebateRequest request);
 }
